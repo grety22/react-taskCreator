@@ -1,0 +1,39 @@
+/*Glib = Grety Library*/
+@import url('https://fonts.googleapis.com/css?family=Titan+One');
+
+body {
+    background-image: url(../img/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.g-img {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+.g-rounded {
+    border-bottom-left-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+}
+
+.g-header {
+    font-family: 'Titan One', cursive;
+    font-size: 3em !important;
+    text-shadow: 2px 3px 2px rgba(8,33,49,0.48);
+}
+
+.g-header-a {
+    color: #8651cb !important;
+}
+
+.g-header-task {
+    color: #4ad5ff !important;
+}
+
+.g-number {
+    color: #00b894 !important;
+    font-size: 1.5em !important;
+}
